@@ -1,0 +1,4 @@
+R5T.L0001.Extensions - An extensions library for the LibGit2Sharp selector library.
+
+Goals
+
