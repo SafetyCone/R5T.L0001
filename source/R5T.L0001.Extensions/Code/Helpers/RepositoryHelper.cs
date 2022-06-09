@@ -11,7 +11,7 @@ namespace R5T.L0001
 
 
         /// <summary>
-        /// Evaluates the output of <see cref="LibGit2Sharp.Repository.Discover(string)"/> to determine if a repository was discovered.
+        /// Evaluates the output of <see cref="Repository.Discover(string)"/> to determine if a repository was discovered.
         /// </summary>
         public static bool WasFound(string repositoryDiscoveryResult)
         {
