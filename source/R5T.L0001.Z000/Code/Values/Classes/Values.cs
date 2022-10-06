@@ -7,7 +7,7 @@ namespace R5T.L0001.Z000
     {
         #region Infrastructure
 
-        public static Values Instance { get; } = new();
+        public static IValues Instance { get; } = new Values();
 
         private Values()
         {
