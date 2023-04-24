@@ -11,6 +11,6 @@ namespace R5T.L0001.Z000
         /// <summary>
         /// The result of <see cref="LibGit2Sharp.Repository.Discover(string)"/> when the input path is not found to be part of a repository working directory.
         /// </summary>
-        public string RepositoryDiscoveryNotFoundResult => null;
+        public string RepositoryDiscoverNotFoundResult => null;
     }
 }
