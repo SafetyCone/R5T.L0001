@@ -13,12 +13,14 @@ namespace R5T.L0001
         /// <summary>
         /// Evaluates the output of <see cref="Repository.Discover(string)"/> to determine if a repository was discovered.
         /// </summary>
+        // See R5T.L0083.F001.
         public static bool WasFound(string repositoryDiscoveryResult)
         {
             var wasFound = repositoryDiscoveryResult != RepositoryHelper.NotFoundRepositoryDiscoveryResult;
             return wasFound;
         }
 
+        // See R5T.L0083.F001.
         public static bool TryDiscoverRepositoryPath(string path, out string repositoryPath)
         {
             repositoryPath = Repository.Discover(path);
@@ -27,6 +29,7 @@ namespace R5T.L0001
             return wasFound;
         }
 
+        // See R5T.L0083.F001.
         public static string DiscoverRepositoryPath(string path)
         {
             var wasFound = RepositoryHelper.TryDiscoverRepositoryPath(path, out var repositoryPath);
